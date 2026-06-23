@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ai Sha G. Unabia - Personal Website</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family:Arial, sans-serif;
+            background:#f5f5f5;
+            color:#333;
+        }
+
+        /* HEADER */
+        .header{
+            background:#0a4bdc;
+            color:white;
+            text-align:center;
+            padding:50px 20px;
+        }
+
+        .header h1{
+            font-size:50px;
+        }
+
+        .header p{
+            margin-top:10px;
+        }
+
+        /* SECTION */
+        section{
+            width:90%;
+            max-width:1100px;
+            margin:40px auto;
+        }
+
+        .card{
+            background:white;
+            padding:25px;
+            border-radius:12px;
+            box-shadow:0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom:30px;
+        }
+
+        h2{
+            color:#0a4bdc;
+            margin-bottom:15px;
+        }
+
+        /* PROFILE IMAGE */
+        .profile{
+            text-align:center;
+        }
+
+        .profile img{
+            width:180px;
+            height:180px;
+            border-radius:50%;
+            object-fit:cover;
+            border:5px solid #0a4bdc;
+        }
+
+        /* SKILLS CARDS */
+        .cards{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+            gap:20px;
+        }
+
+        .skill{
+            background:white;
+            padding:20px;
+            border-radius:10px;
+            box-shadow:0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .orange{border-bottom:5px solid orange;}
+        .cyan{border-bottom:5px solid cyan;}
+        .blue{border-bottom:5px solid blue;}
+        .yellow{border-bottom:5px solid gold;}
+
+        /* VIDEO */
+        .video-container{
+            text-align:center;
+        }
+
+        video{
+            width:100%;
+            max-width:700px;
+            border-radius:10px;
+        }
+
+        /* FOOTER */
+        footer{
+            background:#0a4bdc;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <div class="header">
+        <h1>Ai Sha G. Unabia</h1>
+        <p>Student | Web Design Learner | Math Lover</p>
+    </div>
+
+    <!-- ABOUT ME -->
+    <section class="card profile">
+        <img src="photo/ash.jpeg" alt="My Photo">
+
+        <h2>About Me</h2>
+        <p>
+            Hello! My name is Ai Sha G. Unabia.
+            I am a student who loves solving Math problems,
+            watching movies, listening to music, and learning technology.
+        </p>
+
+        <br>
+
+        <h3>My Hobbies</h3>
+        <ul>
+            <li>Sleeping</li>
+            <li>Watching Movies</li>
+            <li>Listening to Music</li>
+        </ul>
+
+        <br>
+
+        <a href="https://www.spotify.com" target="_blank">
+            Visit Spotify
+        </a>
+    </section>
+
+    <!-- SCHOOL STORY -->
+    <section class="card">
+        <h2>My School Story</h2>
+
+        <p>
+            This is my school. I took this photo because
+            Ma'am Palmera told us to capture a meaningful place.
+        </p>
+
+        <br>
+
+        <img src="photo/ground.jpeg" alt="School Photo" width="350">
+
+        <br><br>
+
+        <p>
+            The blue sky, trees, and roots remind me of growth,
+            hard work, learning, and peace.
+        </p>
+
+        <h3>What I See</h3>
+
+        <ol>
+            <li>Blue pillars</li>
+            <li>Tree roots</li>
+            <li>Blue sky</li>
+        </ol>
+
+        <br>
+
+        <ul>
+            <li>Yellow wall</li>
+            <li>Small plants</li>
+            <li>Dirt path</li>
+        </ul>
+    </section>
+
+    <!-- VIDEO SECTION -->
+    <section class="card">
+        <h2>My Video</h2>
+
+        <div class="video-container">
+            <video controls>
+                <source src="video/bukidnon.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <p style="text-align:center; margin-top:15px;">
+            This video shows a special place or project that I would like to share.
+        </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section>
+        <h2 style="text-align:center; margin-bottom:20px;">My Interests</h2>
+
+        <div class="cards">
+
+            <div class="skill orange">
+                <h3>Graphic Design</h3>
+                <p>Create posters, logos, banners, and visual content.</p>
+            </div>
+
+            <div class="skill cyan">
+                <h3>Web Design</h3>
+                <p>Build attractive and user-friendly websites.</p>
+            </div>
+
+            <div class="skill blue">
+                <h3>Software</h3>
+                <p>Programs that help users perform tasks efficiently.</p>
+            </div>
+
+            <div class="skill yellow">
+                <h3>Applications</h3>
+                <p>Useful tools for communication, education, and entertainment.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        © 2026 Ai Sha G. Unabia | Personal Portfolio
+    </footer>
+
+</body>
+</html>
